@@ -28,7 +28,8 @@ Relatórios Administrativos: Gera relatórios de contas e transações.
 
 Segurança com Senha: Adiciona autenticação por senha para acessar a conta.
 
-Código usando Orinetação a Objetos: Quais benefícios?
+Código usando Orinetação a Objetos. Quais benefícios?
+
 Separação de Responsabilidades: 
 A classe ContaBancaria gerencia apenas operações relacionadas à conta.
 A classe Banco gerencia todas as contas e operações do banco.
