@@ -27,3 +27,18 @@ Alteração de Dados do Titular: Permite alterar o nome do titular.
 Relatórios Administrativos: Gera relatórios de contas e transações.
 
 Segurança com Senha: Adiciona autenticação por senha para acessar a conta.
+
+Código usando Orinetação a Objetos: Quais benefícios?
+Separação de Responsabilidades: 
+A classe ContaBancaria gerencia apenas operações relacionadas à conta.
+A classe Banco gerencia todas as contas e operações do banco.
+A classe SistemaBancario lida com a interação com o usuário.
+
+Encapsulamento:
+Atributos como senha e saldo são protegidos e só podem ser acessados por métodos da própria classe.
+
+Reutilização de Código:
+Métodos como autenticar e verificar_extrato são reutilizados em várias operações.
+
+Extensibilidade:
+Novas funcionalidades podem ser adicionadas facilmente, como investimentos ou notificações.
